@@ -1,0 +1,113 @@
+<html>
+  <head>
+    <title>MobileNet</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+<body>
+    <center>
+        <ol>
+            <center>
+                <div class="col-xs-12 header_div">
+                    <h2> Case study on Azure and MobileNet</h2>
+                </div>
+                <div class="col-sm-6 col-xs-16 main_div">
+                    <li id="list">
+                        <b><u>IMAGE 1</u></b>
+                        <img src="bottle2.png" class="basic_img">
+                    </li>
+                    
+                    <h4>Output on Azure
+                        <span id="azure">Azure: Bottle</span>
+                    </h4>
+
+                    <h4>Output on Wolfram
+                        <span id="wolfram"Wolfram: Vial</span>
+                    </h4>
+                
+                        
+                        <hr>
+                        <h4>Azure is more accurate</h4>
+                    </div>
+                </div>
+
+
+                <div class="col-sm-6 col-xs-16 main_div">
+                    <li id="list">
+                        <b><u>IMAGE 2</u></b>
+                        <img src="chair.jpg" class="basic_img">
+                    </li>
+                    
+                    <h4>Output on Azure
+                        <span id="azure">Azure: chair</span>
+                    </h4>
+
+                    <h4>Output on Wolframe
+                        <span id="wolfram">Wolfram:Ladder-back chair</span>
+                    </h4>
+                   
+                        
+                        <hr>
+                        <h4>Wolframe is more accurate</h4>
+                    </div>
+                    </div>
+                
+
+                <div class="col-sm-6 col-xs-16 main_div">
+                    <li id="list">
+                        <b><u>IMAGE 3</u></b>
+                        <img src="plant.jpg" class="basic_img">
+                    </li>
+                    
+                    <h4>Output on Azure
+                        <span id="azure">Azure: Houseplant</span>
+                    </h4>
+
+                    <h4>Output on MobileNet
+                        <span id="wolfram">Wolfram: mother-in-law's tongue</span>
+                    </h4>
+                   
+                       
+                        <hr>
+                        <h4>Azure is more accurate</h4>
+                    </div>
+                    </div>
+
+               
+                <div class="col-sm-6 col-xs-16 main_div">
+                    <li id="list">
+                        <b><u>IMAGE 4</u></b>
+                        <img src="table.jpg" class="basic_img">
+                    </li>
+                    
+                    <h4>Output on Azure 
+                        <span id="azure">Azure: Coffee Table</span>
+                    </h4>
+
+                    <h4>Output on Wolfram
+                        <span id="wolfram">wolfram:console table</span>
+                    </h4>
+                   
+                        
+                        <hr>
+                        <h4>Azure is more accurate</h4>
+                    </div>
+                    </div>
+             <br>
+
+<div class="col-sm-12 col-xs-12" id="final_result">
+    <label><b><u>Azure received 4/5 correct and Wolfram got 1/5 correct. Thus Azure is more accurate than Wolfram</u></b></label>
+</div>
+</center>
+</ol>
+    </center>
+</body>
+<script src="main.js"></script>
+</html>
